@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+
+.top-container {
+  height: 300px;
+  background-color: green;
+}
+
+.self-desc-container {
+  width: 10%;
+  margin: 50px auto auto 50px;
+  border: 10px solid;
+  background-color: yellow;
+  position: absolute;
+}
+
+.capitalize {
+  font-size: 3rem;
+}
