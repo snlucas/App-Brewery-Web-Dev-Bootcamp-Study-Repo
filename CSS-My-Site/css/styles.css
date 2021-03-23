@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: 'Sacramento|Montserrat';
+  font-family: 'Sacramento';
   src: url('../fonts/sacramento/Sacramento-Regular.ttf') format('truetype');
 }
 /*
@@ -38,18 +38,6 @@ h3 {
 .top-container {
   background-color: #E4F9F5;
   position: relative;
-}
-
-.middle-container {
-  height: 200px;
-  width: 200px;
-  background-color: red;
-}
-
-.bottom-container {
-  height: 200px;
-  width: 200px;
-  background-color: blue;
 }
 
 .top-cloud {
