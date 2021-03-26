@@ -8,3 +8,6 @@ A project to practice course content.
 
 ## DOM
 The JavaCript DOM session.
+
+## Intro to Node
+The Node session project.
