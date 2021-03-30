@@ -20,4 +20,17 @@ app.post("/", function(req, res) {
   res.send(sum.toString());
 });
 
+app.get("/bmicalculator", function(req, res){
+  res.sendFile(`${__dirname}/bmiCalculator.html`);
+});
+
+app.post("/bmicalculator", function(req, res) {
+  const weight = parseFloat(req.body.weight);
+  const height = parseFloat(req.body.height);
+
+  const bmi = Math.round(weight / Math.pow(height, 2));
+
+  res.send("Your BMI is " + bmi.toString());
+});
+
 app.listen(3000, () => console.log("Hey ya!"));
