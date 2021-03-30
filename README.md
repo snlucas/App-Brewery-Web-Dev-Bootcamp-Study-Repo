@@ -14,3 +14,6 @@ The Node session project.
 
 ## My Express Project
 A simple Express Project.
+
+## WeatherProject
+A simple project to learn how to use APIs
