@@ -17,3 +17,6 @@ A simple Express Project.
 
 ## WeatherProject
 A simple project to learn how to use APIs
+
+## Newsletter Signup
+A email sender project.
